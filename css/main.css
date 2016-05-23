@@ -85,6 +85,14 @@ i.icon.icon-microsoft-office {
   font-weight: 600
 }
 
+@media (min-width: 600px) {
+  .card {
+      width: 400px;
+      margin: auto;
+      margin-top: 10px;
+  }
+}
+
 @media (min-width: 600px) and (max-width: 1000px) {
   .img-wallpaper{
     padding-bottom: 35.111%;
