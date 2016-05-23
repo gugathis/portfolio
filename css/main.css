@@ -24,55 +24,81 @@
 i.icon.icon-php {
     width: 29px;
     height: 29px;
-    background-image: url(../img/i-f7-ios.png);
+    background-image: url(../img/icon-php.png);
     border-radius: 6px;
 }
 
 i.icon.icon-sql {
     width: 29px;
     height: 29px;
-    background-image: url(../img/i-f7-ios.png);
+    background-image: url(../img/icon-sql.png);
     border-radius: 6px;
 }
 
 i.icon.icon-mysql {
     width: 29px;
     height: 29px;
-    background-image: url(../img/i-f7-ios.png);
+    background-image: url(../img/icon-mysql.png);
     border-radius: 6px;
 }
 
 i.icon.icon-html {
     width: 29px;
     height: 29px;
-    background-image: url(../img/i-f7-ios.png);
+    background-image: url(../img/icon-html.png);
     border-radius: 6px;
 }
 
 i.icon.icon-css {
     width: 29px;
     height: 29px;
-    background-image: url(../img/i-f7-ios.png);
+    background-image: url(../img/icon-css.png);
     border-radius: 6px;
 }
 
 i.icon.icon-linux {
     width: 29px;
     height: 29px;
-    background-image: url(../img/i-f7-ios.png);
+    background-image: url(../img/icon-linux.ico);
     border-radius: 6px;
 }
 
 i.icon.icon-windows-server {
     width: 29px;
     height: 29px;
-    background-image: url(../img/i-f7-ios.png);
+    background-image: url(../img/icon-windows-server.png);
     border-radius: 6px;
 }
 
 i.icon.icon-microsoft-office {
     width: 29px;
     height: 29px;
-    background-image: url(../img/i-f7-ios.png);
+    background-image: url(../img/icon-office.ico);
     border-radius: 6px;
+}
+
+.text-subtitle{
+  font-weight: 600
+}
+
+.card-header-title{
+  font-weight: 600
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .img-wallpaper{
+    padding-bottom: 35.111%;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1500px) {
+  .img-wallpaper{
+    padding-bottom: 23.111%;
+  }
+}
+
+@media (min-width: 1501px) {
+  .img-wallpaper{
+    padding-bottom: 13.111%;
+  }
 }
