@@ -1,0 +1,78 @@
+.img-wallpaper{
+  background: #d8dce6 url("../img/wallpaper.jpg") no-repeat center;
+  width: 100%;
+  z-index: 50;
+  padding-bottom: 56.111%;
+  background-size: 100%;
+}
+
+.img-profil{
+  background: #d8dce6 url("../img/yvesBattiston.jpg") no-repeat center;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  z-index: 100;
+  margin-top: -75px;
+  border: 5px solid #fff;
+  border-radius: 150px;
+}
+
+.navbar .center {
+    font-weight: 600;
+}
+
+i.icon.icon-php {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i-f7-ios.png);
+    border-radius: 6px;
+}
+
+i.icon.icon-sql {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i-f7-ios.png);
+    border-radius: 6px;
+}
+
+i.icon.icon-mysql {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i-f7-ios.png);
+    border-radius: 6px;
+}
+
+i.icon.icon-html {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i-f7-ios.png);
+    border-radius: 6px;
+}
+
+i.icon.icon-css {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i-f7-ios.png);
+    border-radius: 6px;
+}
+
+i.icon.icon-linux {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i-f7-ios.png);
+    border-radius: 6px;
+}
+
+i.icon.icon-windows-server {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i-f7-ios.png);
+    border-radius: 6px;
+}
+
+i.icon.icon-microsoft-office {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i-f7-ios.png);
+    border-radius: 6px;
+}
