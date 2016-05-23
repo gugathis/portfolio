@@ -1,6 +1,6 @@
 # portfolio
 
-A template for a protfolie page.
+A template for a protfolio
 
 # license
 
