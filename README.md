@@ -4,4 +4,4 @@ A template for a protfolie page.
 
 # license
 
-MIT
+MIT: http://rem.mit-license.org
