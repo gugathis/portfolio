@@ -73,7 +73,7 @@ i.icon.icon-css {
 i.icon.icon-linux {
     width: 29px;
     height: 29px;
-    background-image: url(../img/icon-linux.ico);
+    background-image: url(../img/icon-linux.png);
     border-radius: 6px;
 }
 
@@ -87,7 +87,7 @@ i.icon.icon-windows-server {
 i.icon.icon-microsoft-office {
     width: 29px;
     height: 29px;
-    background-image: url(../img/icon-office.ico);
+    background-image: url(../img/icon-office.png);
     border-radius: 6px;
 }
 
