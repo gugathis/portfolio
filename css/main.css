@@ -21,6 +21,20 @@
     font-weight: 600;
 }
 
+i.icon.icon-javascript {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/icon-javascript.png);
+    border-radius: 6px;
+}
+
+i.icon.icon-nodejs {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/icon-nodejs.png);
+    border-radius: 6px;
+}
+
 i.icon.icon-php {
     width: 29px;
     height: 29px;
