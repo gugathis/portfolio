@@ -35,6 +35,13 @@ i.icon.icon-nodejs {
     border-radius: 6px;
 }
 
+i.icon.icon-sharepoint {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/icon-sharepoint.png);
+    border-radius: 6px;
+}
+
 i.icon.icon-php {
     width: 29px;
     height: 29px;
