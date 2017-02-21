@@ -70,6 +70,13 @@ i.icon.icon-mysql {
     border-radius: 6px;
 }
 
+i.icon.icon-mongodb {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/icon-mongodb.png);
+    border-radius: 6px;
+}
+
 i.icon.icon-html {
     width: 29px;
     height: 29px;
