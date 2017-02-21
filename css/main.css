@@ -35,6 +35,13 @@ i.icon.icon-react {
     border-radius: 6px;
 }
 
+i.icon.icon-knockout {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/icon-knockout.png);
+    border-radius: 6px;
+}
+
 i.icon.icon-nodejs {
     width: 29px;
     height: 29px;
