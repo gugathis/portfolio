@@ -28,6 +28,13 @@ i.icon.icon-javascript {
     border-radius: 6px;
 }
 
+i.icon.icon-react {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/icon-react.png);
+    border-radius: 6px;
+}
+
 i.icon.icon-nodejs {
     width: 29px;
     height: 29px;
