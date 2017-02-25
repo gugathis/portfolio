@@ -149,7 +149,7 @@ i.icon.icon-microsoft-office {
 }
 
 .large-header {
-   position: fixed;
+   position: relative;
    width: 100%;
    background: black;
    overflow: hidden;
