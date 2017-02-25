@@ -7,14 +7,15 @@
 }
 
 .img-profil{
-  background: #d8dce6 url("../img/jonas-voland.jpg") no-repeat center;
+  background: #d8dce6 url("../img/gugathis.jpg") no-repeat center;
   width: 140px;
   height: 140px;
   margin: 0 auto;
-  z-index: 100;
-  margin-top: -75px;
+  z-index: 2;
+  margin-top: -70px;
   border: 5px solid #fff;
   border-radius: 150px;
+  position: relative;
 }
 
 .navbar .center {
@@ -68,6 +69,20 @@ i.icon.icon-sql {
     height: 29px;
     background-image: url(../img/icon-sql.png);
     border-radius: 6px;
+}
+
+i.icon.icon-sqlite {
+  width: 29px;
+  height: 29px;
+  background-image: url(../img/icon-sqlite.png);
+  border-radius: 6px;
+}
+
+i.icon.icon-csharp {
+  width: 29px;
+  height: 29px;
+  background-image: url(../img/icon-csharp.png);
+  border-radius: 6px;
 }
 
 i.icon.icon-mysql {
@@ -125,6 +140,50 @@ i.icon.icon-microsoft-office {
 
 .card-header-title{
   font-weight: 600
+}
+
+.hands-on-training {
+    right: 0;
+    font-size: 11px;
+    color: red;
+}
+
+.large-header {
+   position: relative;
+   width: 100%;
+   background: black;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+   font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
 }
 
 @media (min-width: 600px) {

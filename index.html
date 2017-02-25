@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="white">
-    <title>Jonas Voland</title>
+    <title>Gugathis Jeyabala</title>
 
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
@@ -33,7 +33,13 @@
     <link href="css/framework7.ios.min.css" rel="stylesheet" />
     <link href="css/framework7.ios.colors.min.css" rel="stylesheet" />
     <!-- CSS Custom -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/demo.css" rel="stylesheet" />
+    <link href="css/component.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
+
+
+
 
 
 </head>
@@ -53,7 +59,7 @@
             <div class="navbar">
                 <div data-page="page" class="navbar-inner">
                     <div class="left"></div>
-                    <div class="center">Jonas Voland</div>
+                    <div class="center">Gugathis Jeyabala</div>
                     <div class="right"></div>
                 </div>
             </div>
@@ -64,9 +70,15 @@
                     <!-- Page Content-->
                     <div class="page-content hide-bars-on-scroll">
                         <div class="header">
-                            <div>
-                                <div class="img-wallpaper"></div>
-                            </div>
+                          <div class="container demo">
+ <div class="content">
+   <div id="large-header" class="large-header" style="height: 127;">
+        <canvas id="demo-canvas" width="5000px" height="500px" class=""></canvas>
+
+        <h1 class="main-title"><span class="thin">Welcome</span></h1>
+     </div>
+ </div>
+</div>
                             <div>
                                 <div class="img-profil"></div>
                             </div>
@@ -76,6 +88,18 @@
                             <div class="card-content">
                                 <div class="list-block">
                                     <ul>
+                                      <li class="item-content">
+                                          <div class="item-media"><i class="icon icon-html"></i></div>
+                                          <div class="item-inner">
+                                              <div class="item-title">HTML5</div>
+                                          </div>
+                                      </li>
+                                      <li class="item-content">
+                                          <div class="item-media"><i class="icon icon-css"></i></div>
+                                          <div class="item-inner">
+                                              <div class="item-title">CSS3</div>
+                                          </div>
+                                      </li>
                                         <li class="item-content">
                                             <div class="item-media"><i class="icon icon-javascript"></i></div>
                                             <div class="item-inner">
@@ -89,51 +113,30 @@
                                             </div>
                                         </li>
                                         <li class="item-content">
-                                            <div class="item-media"><i class="icon icon-react"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">React</div>
-                                            </div>
-                                        </li>
-                                        <li class="item-content">
                                             <div class="item-media"><i class="icon icon-knockout"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Knockout</div>
+                                                <p class="hands-on-training">Hands-on training</p>
                                             </div>
                                         </li>
                                         <li class="item-content">
-                                            <div class="item-media"><i class="icon icon-html"></i></div>
+                                            <div class="item-media"><i class="icon icon-csharp"></i></div>
                                             <div class="item-inner">
-                                                <div class="item-title">HTML5</div>
+                                                <div class="item-title">C#</div>
+                                                <p class="hands-on-training">Hands-on training</p>
                                             </div>
                                         </li>
                                         <li class="item-content">
-                                            <div class="item-media"><i class="icon icon-css"></i></div>
+                                            <div class="item-media"><i class="icon icon-sqlite"></i></div>
                                             <div class="item-inner">
-                                                <div class="item-title">CSS3</div>
-                                            </div>
-                                        </li>
-                                        <li class="item-content">
-                                            <div class="item-media"><i class="icon icon-php"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">PHP</div>
-                                            </div>
-                                        </li>
-                                        <li class="item-content">
-                                            <div class="item-media"><i class="icon icon-mongodb"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">MongoDB</div>
-                                            </div>
-                                        </li>
-                                        <li class="item-content">
-                                            <div class="item-media"><i class="icon icon-sql"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">SQL</div>
+                                                <div class="item-title">SQLite</div>
                                             </div>
                                         </li>
                                         <li class="item-content">
                                             <div class="item-media"><i class="icon icon-mysql"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">MySQL</div>
+                                                <p class="hands-on-training">Hands-on training</p>
                                             </div>
                                         </li>
                                         <li class="item-content">
@@ -143,15 +146,17 @@
                                             </div>
                                         </li>
                                         <li class="item-content">
-                                            <div class="item-media"><i class="icon icon-linux"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Linux</div>
-                                            </div>
-                                        </li>
-                                        <li class="item-content">
                                             <div class="item-media"><i class="icon icon-windows-server"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Windows Server</div>
+                                                <p class="hands-on-training">Hands-on training</p>
+                                            </div>
+                                        </li>
+                                        <li class="item-content">
+                                            <div class="item-media"><i class="icon icon-linux"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title">Linux</div>
+                                                <p class="hands-on-training">Hands-on training</p>
                                             </div>
                                         </li>
                                         <li class="item-content">
@@ -169,19 +174,19 @@
                             <div class="card-content">
                                 <div class="card-content-inner">
                                     <span class="text-subtitle">Name</span> <br>
-                                    <span>Jonas Voland</span> <br><br>
+                                    <span>Gugathis Jeyabala</span> <br><br>
                                     <!--
                                     <span class="text-subtitle">Address</span> <br>
                                     <span>xxx 6P, 3000 Bern</span> <br><br>
                                     -->
                                     <span class="text-subtitle">Phone Number</span> <br>
-                                    <span>+41 79 881 75 00</span> <br><br>
+                                    <span>+41 79 297 06 13</span> <br><br>
                                     <span class="text-subtitle">E-Mail</span> <br>
-                                    <span>j.voland@gmx.ch</span> <br><br>
+                                    <span>gugathis.jeyabala@gmail.com</span> <br><br>
                                     <span class="text-subtitle">Citizenship</span> <br>
-                                    <span>Swiss</span> <br><br>
+                                    <span>Switzerland</span> <br><br>
                                     <span class="text-subtitle">Date Of Birth</span> <br>
-                                    <span>09.12.1995</span> <br><br>
+                                    <span>03.09.1998</span> <br><br>
                                     <span class="text-subtitle">Gender</span> <br>
                                     <span>Male</span>
                                 </div>
@@ -191,23 +196,25 @@
                             <div class="card-header card-header-title">Work Experience</div>
                             <div class="card-content">
                                 <div class="card-content-inner">
-                                    <span class="text-subtitle">ICT Application Engineer at Swisscom (Schweiz) AG</span> <br>
+                                    <span class="text-subtitle">Trainee Business IT-Specialist, Federal VET Diploma at Swisscom AG</span> <br>
                                     <span>August 2016 - Until now</span>
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header card-header-title">Apprenticeship as computer scientist</div>
+                            <div class="card-header card-header-title">Qualification Projects as Business IT-Specialist Trainee at Swisscom AG</div>
                             <div class="card-content">
                                 <div class="card-content-inner">
-                                    <span class="text-subtitle">Frontend Developer</span> <br>
-                                    <span>December 2014 - July 2016</span> <br><br>
-                                    <span class="text-subtitle">Sharepoint Ambassador</span> <br>
-                                    <span>September 2013 - December 2014</span> <br><br>
-                                    <span class="text-subtitle">IT Specialist</span> <br>
-                                    <span>March 2013 - September 2013</span> <br><br>
-                                    <span class="text-subtitle">Customer Field Service</span> <br>
-                                    <span>August 2012 - March 2013</span>
+                                    <span class="text-subtitle">ICT System Engineering at Server Factory</span> <br>
+                                    <span>March 2016 - until now</span> <br><br>
+                                    <span class="text-subtitle">Frontend Developer at Enterprise Apps Team</span> <br>
+                                    <span>August 2016 - February 2016</span> <br><br>
+                                    <span class="text-subtitle">Second Level Support at Solution Group</span> <br>
+                                    <span>September 2015 - July 2016</span> <br><br>
+                                    <span class="text-subtitle">Deputy at Product Laboratories</span> <br>
+                                    <span>February 2015 - August 2015</span> <br><br>
+                                    <span class="text-subtitle">Field Service</span> <br>
+                                    <span>September 2014 - January 2015</span>
                                 </div>
                             </div>
                         </div>
@@ -215,12 +222,12 @@
                             <div class="card-header card-header-title">Education</div>
                             <div class="card-content">
                                 <div class="card-content-inner">
-                                    <span class="text-subtitle">four-year secondary school, NMS, Bern</span> <br>
-                                    <span>2008 - 2012</span> <br><br>
-                                    <span class="text-subtitle">5.-6. primary school, NMS, Bern</span> <br>
-                                    <span>2006 - 2008</span> <br><br>
-                                    <span class="text-subtitle">1.-4. primary school, Schule Rossfeld, Bern</span> <br>
-                                    <span>2002 - 2006</span>
+                                    <span class="text-subtitle">3-year secondary school, Spitalacker Schule, Bern</span> <br>
+                                    <span>2011 - 2014</span> <br><br>
+                                    <span class="text-subtitle">5.-6. primary school, Spitalacker Schule, Bern</span> <br>
+                                    <span>2009 - 2011</span> <br><br>
+                                    <span class="text-subtitle">1.-4. primary school, Spitalacker Schule, Bern</span> <br>
+                                    <span>2005 - 2009</span>
                                 </div>
                             </div>
                         </div>
@@ -230,6 +237,17 @@
                             <div class="card-content">
                                 <div class="list-block media-list">
                                     <ul>
+                                      <li class="item-content">
+                                          <div class="item-media">
+                                              <img src="img/srilanka.png" width="44">
+                                          </div>
+                                          <div class="item-inner">
+                                              <div class="item-title-row">
+                                                  <div class="item-title">Tamil</div>
+                                              </div>
+                                              <div class="item-subtitle">Mother Tongue</div>
+                                          </div>
+                                        </li>
                                         <li class="item-content">
                                             <div class="item-media">
                                                 <img src="img/germany.png" width="44">
@@ -238,7 +256,7 @@
                                                 <div class="item-title-row">
                                                     <div class="item-title">German</div>
                                                 </div>
-                                                <div class="item-subtitle">Mother Tongue</div>
+                                                <div class="item-subtitle">Fluently</div>
                                             </div>
                                         </li>
                                         <li class="item-content">
@@ -249,7 +267,7 @@
                                                 <div class="item-title-row">
                                                     <div class="item-title">English</div>
                                                 </div>
-                                                <div class="item-subtitle">Level B2</div>
+                                                <div class="item-subtitle">Good</div>
                                             </div>
                                         </li>
                                     </ul>
@@ -265,7 +283,15 @@
     <script src="vendor/framework7.min.js"></script>
     <script src="vendor/knockout.js"></script>
     <!-- JS Custom -->
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.js"></script>
+    <script src="js/demo-1.js"></script>
     <script src="js/app.js"></script>
+
+
+
+
 </body>
 
 </html>
