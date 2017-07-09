@@ -64,6 +64,13 @@ i.icon.icon-php {
     border-radius: 6px;
 }
 
+i.icon.icon-java {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/icon-java.png);
+    border-radius: 6px;
+}
+
 i.icon.icon-sql {
     width: 29px;
     height: 29px;
