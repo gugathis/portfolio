@@ -36,20 +36,6 @@ i.icon.icon-react {
     border-radius: 6px;
 }
 
-i.icon.icon-knockout {
-    width: 29px;
-    height: 29px;
-    background-image: url(../img/icon-knockout.png);
-    border-radius: 6px;
-}
-
-i.icon.icon-nodejs {
-    width: 29px;
-    height: 29px;
-    background-image: url(../img/icon-nodejs.png);
-    border-radius: 6px;
-}
-
 i.icon.icon-sharepoint {
     width: 29px;
     height: 29px;
@@ -83,14 +69,6 @@ i.icon.icon-sqlite {
   height: 29px;
   background-image: url(../img/icon-sqlite.png);
   border-radius: 6px;
-}
-
-i.icon.icon-csharp {
-  width: 29px;
-  height: 29px;
-  background-image: url(../img/icon-csharp.png);
-  border-radius: 6px;
-  //test
 }
 
 i.icon.icon-mysql {
